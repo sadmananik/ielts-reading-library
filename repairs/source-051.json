@@ -1,0 +1,92 @@
+{
+  "testId": "source-051",
+  "questions": [
+    {
+      "number": 28,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 29,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 30,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 31,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 32,
+      "unavailable": false,
+      "text": "Limavady",
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "p3-q28",
+      "media": [
+        {
+          "src": "assets/recovered/source-051-051-map.png",
+          "alt": "Northern Ireland map, locations A–E",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-51/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-51/",
+      "title": "Matching passage and missing task"
+    },
+    {
+      "url": "https://waytocrackielts.com/wp-content/uploads/2020/12/yellow-book.pdf",
+      "title": "Matching Northern Ireland task, printed page 71: fifth place is Limavady"
+    }
+  ],
+  "notes": [
+    "The original online task omits the fifth place name. The matching printed task lists Limavady; the supplied key B matches its position on this map."
+  ]
+}

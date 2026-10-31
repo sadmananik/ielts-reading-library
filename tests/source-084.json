@@ -1,0 +1,937 @@
+{
+  "id": "source-084",
+  "title": "IELTS Reading Test 84",
+  "source": "User-supplied Test_084.txt",
+  "sourceNumber": 84,
+  "passages": [
+    {
+      "title": "South pole adventurer",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "FOR a few weeks in January 1912, Antarctica was full of explorers. Norwegian Roald Amundsen had reached the South Pole on 14 December and was speeding back to the coast. On 17 January, Robert Scott and the men of the British Antarctic expedition had arrived at the pole to find they had been beaten to it. Just then, a third man arrived; Japanese explorer Nobu Shirase. However, his part in one of the greatest adventure stories of the 20th century is hardly known outside his own country, even by fellow explorers. Yet as Scott was nearing the pole and with the rest of the world still unaware of Amundsen’s triumph, Shirase and his team sailed into Antarctica’s Bay of Whales in the smallest ship ever to try its luck in these dangerous waters."
+        },
+        {
+          "label": "2",
+          "text": "Since boyhood Shirase had dreamed of becoming a polar explorer. Like Amundsen, he initially set his sights on the North Pole. But after the American Robert Peary claimed to have reached it in 1909, both men hastily altered their plans. Instead they would aim for the last big prize: the South Pole. In January 1910, Shirase put his plans before Japanese government officials, promising to raise the flag at the South Pole within three years. For many of them, the question wasn’t could he do it but why would it be worth doing? 15 years earlier the International Geographical Congress had said that as the last unknown continent the Antarctic offered the chance to add to knowledge in almost every branch of science. So, like the British, Shirase presented his expedition as a search for knowledge: he would bring back fossils, make meteorological measurements and explore unknown parts of the continent."
+        },
+        {
+          "label": "3",
+          "text": "The response from the government was cool, however, and Shirase struggled to raise funds. Fortunately, a few months later, Japan’s former prime minister Shigenobu □kuma came to Shirase’s rescue. With □kuma’s backing, Shirase got together just enough money to buy and equip a small ship. He eventually acquired a scientist, too, called Terutaro Takeda. At the end of November 1910, his ship the Kainan Maru finally left Tokyo with 27 men and 28 Siberian dogs on board. Before leaving, Shirase confidently outlined his plans to the media. He would sail to New Zealand, then reach Antarctica in February, during the southern summer, and then proceed to the pole the following spring. This was not to be, however. Bad weather delayed the expedition and they didn’t reach New Zealand until 8 February; Amundsen and Scott had already been in Antarctica for a month, preparing for winter. In New Zealand local reporters were astonished: the ship was half the size of Amundsen’s ship. True, it was reinforced with iron plate and extra wood, but the ship had only the feeblest engine to help force its way through ice. Few doubted Shirase’s courage, but most reckoned the expedition to be ill- prepared as the Japanese had only lightweight sledges for transport across the ice, made of bamboo and wood."
+        },
+        {
+          "label": "4",
+          "text": "But Shirase’s biggest challenge was time. Antarctica is only accessible by sea for a few weeks in summer and expeditions usually aimed to arrive in January or February. ‘Even with their determination and daring, our Japanese friends are running it rather fine,’ wrote local reporters. Nevertheless, on 11 February the Kainan Maru left New Zealand and sailed straight into the worst weather the captain had ever seen. Then, on 6 March, they approached the coastline of Antarctica’s Ross Sea, looking for a place to land. The ice began to close in, threatening to trap them for the winter, an experience no one was likely to survive. With a remarkable piece of seamanship, the captain steered the ship out of the ice and turned north. They would have to wait out the winter in a warmer climate."
+        },
+        {
+          "label": "5",
+          "text": "A year later than planned, Shirase and six men finally reached Antarctica. Catching up with Scott or Amundsen was out of the question and he had said he would stick to science this time. Yet Shirase still felt the pull of the pole and eventually decided he would head southward to experience the thrills and hardships of polar exploration he had always dreamed of. With provisions for 20 days, he and four men would see how far they could get."
+        },
+        {
+          "label": "6",
+          "text": "Shirase set off on 20 January 1912 with Takeda and two dog handlers, leaving two men at the edge of the ice shelf to make meteorological measurements. For a week they struggled through one blizzard after another, holing up in their tents during the worst of the weather. The temperature fell to -25°C, and frostbite claimed some of the dogs. On 26 January, Shirase estimated there were enough provisions to continue for two more days. Two days later, he announced it was time to turn back. Takeda calculated they had reached 80° 5 south and had travelled 250 kilometres. The men hoisted the Japanese flag."
+        },
+        {
+          "label": "7",
+          "text": "On 3 February, all the men were heading home. The ship reached Tokyo in June 1912 – and Shirase was greeted like a hero despite the fact that he never reached the pole. Nor did he contribute much to science – but then nor did Amundsen, whose only interest was in being first to the pole. Yet Shirase’s expedition was heroic. They travelled beyond 80° south, one of only four teams to have gone so far south at the time. Furthermore, they did it all without the advantages of the other teams and with no previous experience."
+        }
+      ]
+    },
+    {
+      "title": "The rise of agribots",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "The next time you stand at the supermarket checkout, spare a thought for the farmers who helped fill your shopping basket as life is hard for them right now. This, in turn, inevitably means bigger grocery bills for consumers, and greater hardship for the millions in countries where food shortages are a matter of life and death. Worse, studies suggest that the world will need twice as much food by 2050. Yet while farmers must squeeze more out of the land, they must also address the necessity of reducing their impact on the soil, waterways and atmosphere. All this means rethinking how agriculture is practiced, and taking automation to a whole new level. On the new model farms of the future, precision will be key. Why dose a whole field with chemicals if you can spray only where they are needed? Each plant could get exactly the right amount of everything, no more or less, an approach that could slash chemical use and improve yields in one move. But this is easier said than done; the largest farms in Europe and the U.S. can cover thousands of acres. That’s why automation is key to precision farming. Specifically, say agricultural engineers, precision farming needs robot farmers."
+        },
+        {
+          "label": "2",
+          "text": "One day, we might see fields with ‘agribots’ (agricultural robots) that can identify individual seedlings and encourage them along with drops of fertilizer. Other machines would distinguish problem weeds from crops and eliminate them with shots from high-power lasers or a microdot of pesticide. These machines will also be able to identify and harvest all kinds of vegetables. More than a century of mechanization has already turned farming into an industrial-scale activity in much of the world, with farms that grow cereals being the most heavily automated."
+        },
+        {
+          "label": "3",
+          "text": "But a variety of other crops, including oranges and tomatoes destined to become processed foods, are also picked mechanically, albeit to a slightly lesser extent. Yet the next wave of autonomous farm machinery is already at work. You probably haven’t even noticed, for these robots are disguised as tractors. Many are self-steering, use GPS to cross a field, and can even ‘talk’ to their implements – a plough or sprayer, for example. And the implements can talk back, telling the tractor that it’s going too fast or needs to move to the left. This kind of communication is also being developed in other farm vehicles. A new system allows a combine harvester, say, to send a call over to a tractor- trailer so the driver can unload the grain as and when necessary."
+        },
+        {
+          "label": "4",
+          "text": "However, when fully autonomous systems take to the field, they’ll look nothing like tractors. With their enormous size and weight, today’s farm machines have significant downsides: they compact the soil, reducing porosity and killing beneficial life, meaning crops don’t grow so well. Simon Blackmore, who researches agricultural technology at Harper Adams University College in England believes that fleets of lightweight autonomous robots have the potential to solve this problem and that replacing brute force with precision is key. ‘A seed only needs one cubic centimeter of soil to grow. If we cultivate just that we only put tiny amounts of energy in and the plants still grow nicely.’ There is another reason why automation may be the way forward according to Eldert van Henten, a robotics researcher at Wageningen University in the Netherlands. ‘While the population is growing and needs to be fed, a rapidly shrinking number of people are willing to work in agriculture,’ he points out. Other researchers such as Linda Calvin, an economist at the U.S. Department of Agriculture, and Philip Martin at the University of California, Davis, have studied trends in mechanization to predict how US farms might fare. Calvin and Martin have observed how rising employment costs have led to the adoption of labour-saving farm technology in the past, citing the raisin industry as an example. In 2000, a bumper harvest crashed prices and, with profits squeezed, farmers looked for a solution. With labour one of their biggest costs – 42 percent of production expenses on U.S. farms, on average – they started using a mechanical harvester adapted from a machine used by wine makers. By 2007, almost half of California’s raisins were mechanically harvested and a labour force once numbering 50,000 had shrunk to 30,000."
+        },
+        {
+          "label": "5",
+          "text": "As well as having an impact on the job market, the widespread adoption of agribots might bring changes at the supermarket. Lewis Holloway, who studies agriculture at the University of Hull, UK, says that robotic milking is likely to influence the genetics of dairy herds as farmers opt for ‘robot-friendly’ cows, with udder shape, and even attitudes, suited to automated milking. Similarly, he says, it’s conceivable that agribots could influence what fruit or vegetable varieties get to the shops, since farmers may prefer to grow those with, say, leaf shapes that are easier for their robots to discriminate from weeds. Almost inevitably, these machines will eventually alter the landscape, too. The real tipping point for robot agriculture will come when farms are being designed with agribots in mind, says Salah Sukkarieh, a robotics researcher at the Australian Center for Field Robotics, Sydney. This could mean a return to smaller fields, with crops planted in grids rather than rows and fruit trees pruned into two-dimensional shapes to make harvesting easier. This alien terrain tended by robots is still a while away, he says ‘but it will happen.’"
+        }
+      ]
+    },
+    {
+      "title": "Homer’s Literary Legacy",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Until the last tick of history’s clock, cultural transmission meant oral transmission and poetry, passed from mouth to ear, was the principal medium of moving information across space and from one generation to the next. Oral poetry was not simply a way of telling lovely or important stories, or of flexing the imagination. It was, argues the classicist Eric Havelock, a “massive repository of useful knowledge, a sort of encyclopedia of ethics, politics, history and technology which the effective citizen was required to learn as the core of his educational equipment”. The great oral works transmitted a shared cultural heritage, held in common not on bookshelves, but in brains. In India, an entire class of priests was charged with memorizing the Vedas with perfect fidelity. In pre-lslamic Arabia, people known as Rawis were often attached to poets as official memorizers.The Buddha’s teachings were passed down in an unbroken chain of oral tradition for four centuries until they were committed to writing in Sri Lanka in the first century B.C."
+        },
+        {
+          "label": "B",
+          "text": "The most famous of the Western tradition’s oral works, and the first to have been systematically studied, were Homer’s Odyssey and Iliad. These two poems – possibly the first to have been written down in the Greek alphabet – had long been held up as literary archetypes. However, even as they were celebrated as the models to which all literature should aspire, Homer’s masterworks had also long been the source of scholarly unease. The earliest modern critics sensed that they were somehow qualitatively different from everything that came after – even a little strange. For one thing, both poems were oddly repetitive in the way they referred to characters. Odysseus was always “clever Odysseus”. Dawn was always “rosy-fingered”. Why would someone write that? Sometimes the epithets seemed completely off-key. Why call the murderer of Agamemnon “blameless Aegisthos”? Why refer to “swift-footed Achilles” even when he was sitting down? Or to “laughing Aphrodite” even when she was in tears? In terms of both structure and theme, the Odyssey and Iliad were also oddly formulaic, to the point of predictability. The same narrative units – gathering armies, heroic shields, challenges between rivals – pop up again and again, only with different characters and different circumstances. In the context of such finely spun, deliberate masterpieces, these quirks* seemed hard to explain."
+        },
+        {
+          "label": "C",
+          "text": "At the heart of the unease about these earliest works of literature were two fundamental questions: first, how could Greek literature have been born ex nihilo* with two masterpieces? Surely a few less perfect stories must have come before, and yet these two were among the first on record. And second, who exactly was their author? Or was it authors? There were no historical records of Homer, and no trustworthy biography of the man exists beyond a few self-referential hints embedded in the texts themselves."
+        },
+        {
+          "label": "D",
+          "text": "Jean-Jacques Rousseau was one of the first modern critics to suggest that Homer might not have been an author in the contemporary sense of a single person who sat down and wrote a story and then published it for others to read. In his 1781 Essay on the Origin of Languages, the Swiss philosopher suggested that the Odyssey and Iliad might have been “written only in men’s memories. Somewhat later they were laboriously collected in writing”- though that was about as far as his enquiry into the matter went."
+        },
+        {
+          "label": "E",
+          "text": "In 1795, the German philologist Friedrich August Wolf argued for the first time that not only were Homer’s works not written down by Homer, but they weren’t even by Homer. They were, rather, a loose collection of songs transmitted by generations of Greek bards*, and only redacted* in their present form at some later date. In 1920, an eighteen-year-old scholar named Milman Parry took up the question of Homeric authorship as his Master’s thesis at the University of California, Berkeley. He suggested that the reason Homer’s epics seemed unlike other literature was because they were unlike other literature. Parry had discovered what Wood and Wolf had missed: the evidence that the poems had been transmitted orally was right there in the text itself. All those stylistic quirks, including the formulaic and recurring plot elements and the bizarrely repetitive epithets -“clever Odysseus”and “gray-eyed Athena”- that had always perplexed readers were actually like thumbprints left by a potter: material evidence of how the poems had been crafted. They were mnemonic* aids that helped the bard(s) fit the meter and pattern of the line, and remember the essence of the poems."
+        },
+        {
+          "label": "F",
+          "text": "The greatest author of antiquity was actually, Parry argued, just “one of a long tradition of oral poets that… composed wholly without the aid of writing”. Parry realised that if you were setting out to create memorable poems, the Odyssey and the Iliad were exactly the kind of poems you’d create. It’s said that cliches* are the worst sin a writer can commit, but to an oral bard, they were essential. The very reason that cliches so easily seep into our speech and writing – their insidious memorability – is exactly why they played such an important role in oral storytelling.The principles that the oral bards discovered as they sharpened their stories through telling and retelling were the same mnemonic principles that psychologists rediscovered when they began conducting their first scientific experiments on memory around the turn of the twentieth century. Words that rhyme are much more memorable than words that don’t, and concrete nouns are easier to remember than abstract ones. Finding patterns and structure in information is how our brains extract meaning from the world, and putting words to music and rhyme is a way of adding extra levels of pattern and structure to language."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "passage": 1,
+      "text": "Shirase’s trip to the South Pole is well-known to other explorers.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "false",
+      "acceptedAnswers": [
+        "false"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 2,
+      "passage": 1,
+      "text": "Since Shirase arrived in Antarctica, smaller ships have also made the journey.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "not given",
+      "acceptedAnswers": [
+        "not given"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 3,
+      "passage": 1,
+      "text": "Shirase’s original ambition was to travel to the North Pole.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "true",
+      "acceptedAnswers": [
+        "true"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 4,
+      "passage": 1,
+      "text": "Some Japanese officials thought Shirase’s intention to travel to the South Pole was pointless.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "true",
+      "acceptedAnswers": [
+        "true"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 5,
+      "passage": 1,
+      "text": "The British team announced their decision to carry out scientific research in Antarctica before Shirase.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "not given",
+      "acceptedAnswers": [
+        "not given"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 6,
+      "passage": 1,
+      "text": "Shirase found it easy to raise the money he needed for his trip to the South Pole.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "false",
+      "acceptedAnswers": [
+        "false"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 7,
+      "passage": 1,
+      "text": "A previous prime minister of Japan persuaded a scientist to go with Shirase.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "not given",
+      "acceptedAnswers": [
+        "not given"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 8,
+      "passage": 1,
+      "text": "The weather that slowed down Shirase’s progress to New Zealand was unusually bad for the season.",
+      "type": "tfng",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "not given",
+      "acceptedAnswers": [
+        "not given"
+      ],
+      "group": "p1-q1",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 9,
+      "passage": 1,
+      "text": "When reporters in New Zealand met Shirase, they were",
+      "type": "mcq",
+      "options": [
+        "A concerned about the quality of his equipment.",
+        "B impressed with the design of his ship.",
+        "C certain he was unaware of the dangers ahead.",
+        "D surprised by the bravery he demonstrated."
+      ],
+      "answer": "A",
+      "acceptedAnswers": [
+        "A"
+      ],
+      "group": "p1-q9",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 10,
+      "passage": 1,
+      "text": "What are we told about the captain of the Kainan Maru in the fifth paragraph?",
+      "type": "mcq",
+      "options": [
+        "A He had given Shirase some poor advice.",
+        "B His skill at sailing saved the boat and crew.",
+        "C He refused to listen to the warnings of others.",
+        "D He was originally confident they could reach Antarctica."
+      ],
+      "answer": "B",
+      "acceptedAnswers": [
+        "B"
+      ],
+      "group": "p1-q9",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 11,
+      "passage": 1,
+      "text": "After Shirase finally reached Antarctica he realised that",
+      "type": "mcq",
+      "options": [
+        "A he was unsure of the direction he should follow.",
+        "B he would have to give up on fulfilling his personal ambition.",
+        "C he might not have enough food to get to the South Pole.",
+        "D he still wanted to compete in the race against the other teams."
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "C"
+      ],
+      "group": "p1-q9",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 12,
+      "passage": 1,
+      "text": "What is the writer doing in the seventh paragraph?",
+      "type": "mcq",
+      "options": [
+        "A criticising a decision concerning scientific research.",
+        "B explaining why a particular mistake had occurred.",
+        "C describing the conditions that the expedition faced.",
+        "D rejecting the idea that Shirase was poorly prepared."
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "C"
+      ],
+      "group": "p1-q9",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 13,
+      "passage": 1,
+      "text": "What is the writer’s main point in the final paragraph?",
+      "type": "mcq",
+      "options": [
+        "A Considering the problems Shirase had to deal with, his achievement was incredible.",
+        "B In Japan, the reaction to Shirase’s adventure in Antarctica came as a surprise to him.",
+        "C It was obvious that Amundsen would receive more attention as an explorer than Shirase.",
+        "D Shirase had achieved more on the Antarctic expedition than even he had expected."
+      ],
+      "answer": "A",
+      "acceptedAnswers": [
+        "A"
+      ],
+      "group": "p1-q9",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 14,
+      "passage": 2,
+      "text": "Governments should do more to ensure that food is generally affordable.",
+      "type": "tfng",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answer": "not given",
+      "acceptedAnswers": [
+        "not given"
+      ],
+      "group": "p2-q14",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 15,
+      "passage": 2,
+      "text": "Farmers need to reduce the harm they do to the environment.",
+      "type": "tfng",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answer": "yes",
+      "acceptedAnswers": [
+        "yes"
+      ],
+      "group": "p2-q14",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 16,
+      "passage": 2,
+      "text": "In the future, farmers are likely to increase their dependency on chemicals.",
+      "type": "tfng",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answer": "no",
+      "acceptedAnswers": [
+        "no"
+      ],
+      "group": "p2-q14",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 17,
+      "passage": 2,
+      "text": "Farms in Europe and the US may find it hard to adapt to precision farming.",
+      "type": "tfng",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answer": "not given",
+      "acceptedAnswers": [
+        "not given"
+      ],
+      "group": "p2-q14",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 18,
+      "passage": 2,
+      "text": "In the future, agribots will provide………………………….to young plants.",
+      "type": "gap",
+      "options": [],
+      "answer": "fertilizer",
+      "acceptedAnswers": [
+        "fertilizer"
+      ],
+      "group": "p2-q18",
+      "paragraph": "2",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    },
+    {
+      "number": 19,
+      "passage": 2,
+      "text": "Some machines will use chemicals or……………………………..to get rid of unwanted plants.",
+      "type": "gap",
+      "options": [],
+      "answer": "lasers",
+      "acceptedAnswers": [
+        "lasers"
+      ],
+      "group": "p2-q18",
+      "paragraph": "2",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    },
+    {
+      "number": 20,
+      "passage": 2,
+      "text": "It is the production of………………………………which currently uses most machinery on farms.",
+      "type": "gap",
+      "options": [],
+      "answer": "cereals",
+      "acceptedAnswers": [
+        "cereals"
+      ],
+      "group": "p2-q18",
+      "paragraph": "2",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    },
+    {
+      "number": 21,
+      "passage": 2,
+      "text": "……………………………….between machines such as tractors is making farming more efficient.",
+      "type": "gap",
+      "options": [],
+      "answer": "communication",
+      "acceptedAnswers": [
+        "communication"
+      ],
+      "group": "p2-q18",
+      "paragraph": "3",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    },
+    {
+      "number": 22,
+      "passage": 2,
+      "text": "Simon Blackmore",
+      "type": "choice",
+      "options": [
+        "A The use of automation might impact on the development of particular animal and plant species.",
+        "B We need to consider the effect on employment that increased automation will have.",
+        "C We need machines of the future to be exact, not more powerful.",
+        "D As farming becomes more automated the appearance of farmland will change.",
+        "E New machinery may require more investment than certain farmers can afford.",
+        "F There is a shortage of employees in the farming industry.",
+        "G There are limits to the environmental benefits of automation.",
+        "H Economic factors are often the driving force behind the development of machinery."
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "C"
+      ],
+      "group": "p2-q22",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 23,
+      "passage": 2,
+      "text": "Eldert van Henten",
+      "type": "choice",
+      "options": [
+        "A The use of automation might impact on the development of particular animal and plant species.",
+        "B We need to consider the effect on employment that increased automation will have.",
+        "C We need machines of the future to be exact, not more powerful.",
+        "D As farming becomes more automated the appearance of farmland will change.",
+        "E New machinery may require more investment than certain farmers can afford.",
+        "F There is a shortage of employees in the farming industry.",
+        "G There are limits to the environmental benefits of automation.",
+        "H Economic factors are often the driving force behind the development of machinery."
+      ],
+      "answer": "F",
+      "acceptedAnswers": [
+        "F"
+      ],
+      "group": "p2-q22",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 24,
+      "passage": 2,
+      "text": "Linda Calvin and Philip Martin",
+      "type": "choice",
+      "options": [
+        "A The use of automation might impact on the development of particular animal and plant species.",
+        "B We need to consider the effect on employment that increased automation will have.",
+        "C We need machines of the future to be exact, not more powerful.",
+        "D As farming becomes more automated the appearance of farmland will change.",
+        "E New machinery may require more investment than certain farmers can afford.",
+        "F There is a shortage of employees in the farming industry.",
+        "G There are limits to the environmental benefits of automation.",
+        "H Economic factors are often the driving force behind the development of machinery."
+      ],
+      "answer": "H",
+      "acceptedAnswers": [
+        "H"
+      ],
+      "group": "p2-q22",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 25,
+      "passage": 2,
+      "text": "Lewis Holloway",
+      "type": "choice",
+      "options": [
+        "A The use of automation might impact on the development of particular animal and plant species.",
+        "B We need to consider the effect on employment that increased automation will have.",
+        "C We need machines of the future to be exact, not more powerful.",
+        "D As farming becomes more automated the appearance of farmland will change.",
+        "E New machinery may require more investment than certain farmers can afford.",
+        "F There is a shortage of employees in the farming industry.",
+        "G There are limits to the environmental benefits of automation.",
+        "H Economic factors are often the driving force behind the development of machinery."
+      ],
+      "answer": "A",
+      "acceptedAnswers": [
+        "A"
+      ],
+      "group": "p2-q22",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 26,
+      "passage": 2,
+      "text": "Salah Sukkarieh",
+      "type": "choice",
+      "options": [
+        "A The use of automation might impact on the development of particular animal and plant species.",
+        "B We need to consider the effect on employment that increased automation will have.",
+        "C We need machines of the future to be exact, not more powerful.",
+        "D As farming becomes more automated the appearance of farmland will change.",
+        "E New machinery may require more investment than certain farmers can afford.",
+        "F There is a shortage of employees in the farming industry.",
+        "G There are limits to the environmental benefits of automation.",
+        "H Economic factors are often the driving force behind the development of machinery."
+      ],
+      "answer": "D",
+      "acceptedAnswers": [
+        "D"
+      ],
+      "group": "p2-q22",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 27,
+      "passage": 3,
+      "text": "the claim that the Odyssey and Iliad were not poems in their original form.",
+      "type": "paragraph",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": "E",
+      "acceptedAnswers": [
+        "E"
+      ],
+      "group": "p3-q27",
+      "paragraph": "E",
+      "unavailable": false
+    },
+    {
+      "number": 28,
+      "passage": 3,
+      "text": "a theory involving the reinterpretation of the term ‘author’",
+      "type": "paragraph",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": "D",
+      "acceptedAnswers": [
+        "D"
+      ],
+      "group": "p3-q27",
+      "paragraph": "D",
+      "unavailable": false
+    },
+    {
+      "number": 29,
+      "passage": 3,
+      "text": "references to the fact that little is known about Homer’s life",
+      "type": "paragraph",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "C"
+      ],
+      "group": "p3-q27",
+      "paragraph": "C",
+      "unavailable": false
+    },
+    {
+      "number": 30,
+      "passage": 3,
+      "text": "a comparison between the construction of Homer’s poems and another art form",
+      "type": "paragraph",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": "E",
+      "acceptedAnswers": [
+        "E"
+      ],
+      "group": "p3-q27",
+      "paragraph": "E",
+      "unavailable": false
+    },
+    {
+      "number": 31,
+      "passage": 3,
+      "text": "examples of the kinds of people employed to recall language",
+      "type": "paragraph",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": "A",
+      "acceptedAnswers": [
+        "A"
+      ],
+      "group": "p3-q27",
+      "paragraph": "A",
+      "unavailable": false
+    },
+    {
+      "number": 32,
+      "passage": 3,
+      "text": "doubts regarding Homer’s apparently inappropriate descriptions",
+      "type": "paragraph",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": "B",
+      "acceptedAnswers": [
+        "B"
+      ],
+      "group": "p3-q27",
+      "paragraph": "B",
+      "unavailable": false
+    },
+    {
+      "number": 33,
+      "passage": 3,
+      "text": "Answer 33 — refer to the task above.",
+      "type": "multi",
+      "options": [
+        "A They are sometimes historically inaccurate.",
+        "B It is uncertain which century they were written in.",
+        "C Their content is very similar.",
+        "D Later writers referred to them as ideal examples of writing.",
+        "E There are stylistic differences between them."
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "C",
+        "D"
+      ],
+      "group": "p3-q33",
+      "paragraph": null,
+      "unavailable": false,
+      "multiStart": 33,
+      "multiEnd": 34
+    },
+    {
+      "number": 34,
+      "passage": 3,
+      "text": "Answer 34 — refer to the task above.",
+      "type": "multi",
+      "options": [
+        "A They are sometimes historically inaccurate.",
+        "B It is uncertain which century they were written in.",
+        "C Their content is very similar.",
+        "D Later writers referred to them as ideal examples of writing.",
+        "E There are stylistic differences between them."
+      ],
+      "answer": "D",
+      "acceptedAnswers": [
+        "C",
+        "D"
+      ],
+      "group": "p3-q33",
+      "paragraph": null,
+      "unavailable": false,
+      "multiStart": 33,
+      "multiEnd": 34
+    },
+    {
+      "number": 35,
+      "passage": 3,
+      "text": "Answer 35 — refer to the task above.",
+      "type": "multi",
+      "options": [
+        "A Homer wrote his work during a period of captivity.",
+        "B Neither the Odyssey nor the Iliad were written by Homer.",
+        "C Homer created the Odyssey and Iliad without writing them down.",
+        "D Homer may have suffered from a failing memory in later life.",
+        "E The oral and written versions of Homer’s work may not be identical."
+      ],
+      "answer": "B",
+      "acceptedAnswers": [
+        "B",
+        "C"
+      ],
+      "group": "p3-q35",
+      "paragraph": null,
+      "unavailable": false,
+      "multiStart": 35,
+      "multiEnd": 36
+    },
+    {
+      "number": 36,
+      "passage": 3,
+      "text": "Answer 36 — refer to the task above.",
+      "type": "multi",
+      "options": [
+        "A Homer wrote his work during a period of captivity.",
+        "B Neither the Odyssey nor the Iliad were written by Homer.",
+        "C Homer created the Odyssey and Iliad without writing them down.",
+        "D Homer may have suffered from a failing memory in later life.",
+        "E The oral and written versions of Homer’s work may not be identical."
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "B",
+        "C"
+      ],
+      "group": "p3-q35",
+      "paragraph": null,
+      "unavailable": false,
+      "multiStart": 35,
+      "multiEnd": 36
+    },
+    {
+      "number": 37,
+      "passage": 3,
+      "text": "Complete gap 37 in the text above.",
+      "type": "gap",
+      "options": [],
+      "answer": "generation",
+      "acceptedAnswers": [
+        "generation"
+      ],
+      "group": "p3-q37",
+      "paragraph": null,
+      "unavailable": false
+    },
+    {
+      "number": 38,
+      "passage": 3,
+      "text": "Complete gap 38 in the text above.",
+      "type": "gap",
+      "options": [],
+      "answer": "citizen",
+      "acceptedAnswers": [
+        "citizen"
+      ],
+      "group": "p3-q37",
+      "paragraph": "A",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    },
+    {
+      "number": 39,
+      "passage": 3,
+      "text": "Complete gap 39 in the text above.",
+      "type": "gap",
+      "options": [],
+      "answer": "abstract",
+      "acceptedAnswers": [
+        "abstract"
+      ],
+      "group": "p3-q37",
+      "paragraph": "F",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    },
+    {
+      "number": 40,
+      "passage": 3,
+      "text": "Complete gap 40 in the text above.",
+      "type": "gap",
+      "options": [],
+      "answer": "music",
+      "acceptedAnswers": [
+        "music"
+      ],
+      "group": "p3-q37",
+      "paragraph": "F",
+      "unavailable": false,
+      "evidence": "Answer phrase located in this paragraph; review the full context."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q1",
+      "first": 1,
+      "last": 8,
+      "passage": 1,
+      "text": "Do the following statements agree with the information given in Reading Passage 1? In boxes 1-8 on your answer sheet, write\n\nTRUE                         if the statement agrees with the information\nFALSE                       if the statement contradicts the information\nNOT GIVEN            if there is no information on this\n\n1. Shirase’s trip to the South Pole is well-known to other explorers.\n2. Since Shirase arrived in Antarctica, smaller ships have also made the journey.\n3. Shirase’s original ambition was to travel to the North Pole.\n4. Some Japanese officials thought Shirase’s intention to travel to the South Pole was pointless.\n5. The British team announced their decision to carry out scientific research in Antarctica before Shirase.\n6. Shirase found it easy to raise the money he needed for his trip to the South Pole.\n7. A previous prime minister of Japan persuaded a scientist to go with Shirase.\n8. The weather that slowed down Shirase’s progress to New Zealand was unusually bad for the season.",
+      "type": "tfng"
+    },
+    {
+      "id": "p1-q9",
+      "first": 9,
+      "last": 13,
+      "passage": 1,
+      "text": "Choose the correct letter; A, B, C or D.\n\n9. When reporters in New Zealand met Shirase, they were\nA concerned about the quality of his equipment.\nB impressed with the design of his ship.\nC certain he was unaware of the dangers ahead.\nD surprised by the bravery he demonstrated.\n\n10. What are we told about the captain of the Kainan Maru in the fifth paragraph?\nA He had given Shirase some poor advice.\nB His skill at sailing saved the boat and crew.\nC He refused to listen to the warnings of others.\nD He was originally confident they could reach Antarctica.\n\n11. After Shirase finally reached Antarctica he realised that\nA he was unsure of the direction he should follow.\nB he would have to give up on fulfilling his personal ambition.\nC he might not have enough food to get to the South Pole.\nD he still wanted to compete in the race against the other teams.\n\n12. What is the writer doing in the seventh paragraph?\nA criticising a decision concerning scientific research.\nB explaining why a particular mistake had occurred.\nC describing the conditions that the expedition faced.\nD rejecting the idea that Shirase was poorly prepared.\n\n13. What is the writer’s main point in the final paragraph?\nA Considering the problems Shirase had to deal with, his achievement was incredible.\nB In Japan, the reaction to Shirase’s adventure in Antarctica came as a surprise to him.\nC It was obvious that Amundsen would receive more attention as an explorer than Shirase.\nD Shirase had achieved more on the Antarctic expedition than even he had expected.",
+      "type": "mcq"
+    },
+    {
+      "id": "p2-q14",
+      "first": 14,
+      "last": 17,
+      "passage": 2,
+      "text": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 14-17 on your answer sheet, write\n\nYES                           if the statement agrees with the claims of the writer\nNO                             if the statement contradicts the claims of the writer\nNOT GIVEN          if it is impossible to say what the writer thinks about this\n\n14. Governments should do more to ensure that food is generally affordable.\n15. Farmers need to reduce the harm they do to the environment.\n16. In the future, farmers are likely to increase their dependency on chemicals.\n17. Farms in Europe and the US may find it hard to adapt to precision farming.",
+      "type": "tfng"
+    },
+    {
+      "id": "p2-q18",
+      "first": 18,
+      "last": 21,
+      "passage": 2,
+      "text": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.\n\n18. In the future, agribots will provide………………………….to young plants.\n19. Some machines will use chemicals or……………………………..to get rid of unwanted plants.\n20. It is the production of………………………………which currently uses most machinery on farms.\n21. ……………………………….between machines such as tractors is making farming more efficient.",
+      "type": "gap"
+    },
+    {
+      "id": "p2-q22",
+      "first": 22,
+      "last": 26,
+      "passage": 2,
+      "text": "Look at the following researchers (Questions 22-26) and the list of statements below. Match each researcher with the correct statement, A-H.\n\n22. Simon Blackmore\n23. Eldert van Henten\n24. Linda Calvin and Philip Martin\n25. Lewis Holloway\n26. Salah Sukkarieh\n\nList of Findings\nA The use of automation might impact on the development of particular animal and plant species.\nB We need to consider the effect on employment that increased automation will have.\nC We need machines of the future to be exact, not more powerful.\nD As farming becomes more automated the appearance of farmland will change.\nE New machinery may require more investment than certain farmers can afford.\nF There is a shortage of employees in the farming industry.\nG There are limits to the environmental benefits of automation.\nH Economic factors are often the driving force behind the development of machinery.",
+      "type": "choice"
+    },
+    {
+      "id": "p3-q27",
+      "first": 27,
+      "last": 32,
+      "passage": 3,
+      "text": "Reading Passage 3 has six paragraphs, A-F.\n\nWhich paragraph contains the following information?\n\n27. the claim that the Odyssey and Iliad were not poems in their original form.\n28. a theory involving the reinterpretation of the term ‘author’\n29. references to the fact that little is known about Homer’s life\n30. a comparison between the construction of Homer’s poems and another art form\n31. examples of the kinds of people employed to recall language\n32. doubts regarding Homer’s apparently inappropriate descriptions",
+      "type": "paragraph"
+    },
+    {
+      "id": "p3-q33",
+      "first": 33,
+      "last": 34,
+      "passage": 3,
+      "text": "Choose TWO letters, A-E.\n\nWhich TWO of these points are made by the writer of the text about the Odyssey and the Iliad?\nA They are sometimes historically inaccurate.\nB It is uncertain which century they were written in.\nC Their content is very similar.\nD Later writers referred to them as ideal examples of writing.\nE There are stylistic differences between them.",
+      "type": "multi"
+    },
+    {
+      "id": "p3-q35",
+      "first": 35,
+      "last": 36,
+      "passage": 3,
+      "text": "Choose TWO letters, A-E.\n\nWhich TWO of the following theories does the writer of the text refer to?\nA Homer wrote his work during a period of captivity.\nB Neither the Odyssey nor the Iliad were written by Homer.\nC Homer created the Odyssey and Iliad without writing them down.\nD Homer may have suffered from a failing memory in later life.\nE The oral and written versions of Homer’s work may not be identical.",
+      "type": "multi"
+    },
+    {
+      "id": "p3-q37",
+      "first": 37,
+      "last": 40,
+      "passage": 3,
+      "text": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nThe importance of the spoken word and how words are remembered\nSpoken poetry was once the means by which each (37)……………………………….. of a particular culture or community could pass on its knowledge. Indeed, it has been suggested that it was the duty of a (38)………………………… to know poetry so they would be informed about subjects such as politics and history.\n\nPsychologists now know that when people are trying to remember information, they may find it difficult to remember words that express (39)……………………………… ideas. It is easier to remember words which sound similar or go together with (40)………………………………",
+      "type": "gap"
+    }
+  ],
+  "notes": [
+    "Imported from user-supplied text. Answer-key wording and source errors are preserved. Missing visual questions are excluded from scoring."
+  ]
+}

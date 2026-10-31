@@ -1,0 +1,45 @@
+{
+  "testId": "source-004",
+  "questions": [
+    {
+      "number": 37,
+      "unavailable": false,
+      "text": "Complete label or gap 37 in the recovered task above."
+    },
+    {
+      "number": 38,
+      "unavailable": false,
+      "text": "Complete label or gap 38 in the recovered task above."
+    },
+    {
+      "number": 39,
+      "unavailable": false,
+      "text": "Complete label or gap 39 in the recovered task above."
+    },
+    {
+      "number": 40,
+      "unavailable": false,
+      "text": "Complete label or gap 40 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p3-q37",
+      "media": [
+        {
+          "src": "assets/recovered/source-004-004.png",
+          "alt": "Ant collection funnel, labels 37–40",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsprogress.com/collecting-ant-specimens-reading-answers-pdf/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ieltsprogress.com/collecting-ant-specimens-reading-answers-pdf/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

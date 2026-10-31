@@ -1,0 +1,55 @@
+{
+  "testId": "source-061",
+  "questions": [
+    {
+      "number": 16,
+      "unavailable": false,
+      "text": "Complete label or gap 16 in the recovered task above."
+    },
+    {
+      "number": 17,
+      "unavailable": false,
+      "text": "Complete label or gap 17 in the recovered task above."
+    },
+    {
+      "number": 18,
+      "unavailable": false,
+      "text": "Complete label or gap 18 in the recovered task above."
+    },
+    {
+      "number": 19,
+      "unavailable": false,
+      "text": "Complete label or gap 19 in the recovered task above."
+    },
+    {
+      "number": 20,
+      "unavailable": false,
+      "text": "Complete label or gap 20 in the recovered task above."
+    },
+    {
+      "number": 21,
+      "unavailable": false,
+      "text": "Complete label or gap 21 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p2-q16",
+      "media": [
+        {
+          "src": "assets/recovered/source-061-061-diagram.png",
+          "alt": "Water-power dam and turbine diagrams, labels 16–21",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsit.com/news/e-482-water-power-reading-answers"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ieltsit.com/news/e-482-water-power-reading-answers",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

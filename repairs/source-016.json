@@ -1,0 +1,86 @@
+{
+  "testId": "source-016",
+  "questions": [
+    {
+      "number": 4,
+      "unavailable": false,
+      "text": "Complete label or gap 4 in the recovered task above."
+    },
+    {
+      "number": 5,
+      "unavailable": false,
+      "text": "Complete label or gap 5 in the recovered task above."
+    },
+    {
+      "number": 6,
+      "unavailable": false,
+      "text": "Complete label or gap 6 in the recovered task above."
+    },
+    {
+      "number": 7,
+      "unavailable": false,
+      "text": "Complete label or gap 7 in the recovered task above."
+    },
+    {
+      "number": 8,
+      "unavailable": false,
+      "text": "Complete label or gap 8 in the recovered task above."
+    },
+    {
+      "number": 21,
+      "unavailable": false,
+      "text": "Complete label or gap 21 in the recovered task above."
+    },
+    {
+      "number": 22,
+      "unavailable": false,
+      "text": "Complete label or gap 22 in the recovered task above."
+    },
+    {
+      "number": 23,
+      "unavailable": false,
+      "text": "Complete label or gap 23 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q4",
+      "media": [
+        {
+          "src": "assets/recovered/source-016-016-flow-a.png",
+          "alt": "Production of Bakelite, first part, labels 4–6",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-16/"
+        },
+        {
+          "src": "assets/recovered/source-016-016-flow-b.png",
+          "alt": "Production of Bakelite, second part, labels 7–8",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-16/"
+        }
+      ]
+    },
+    {
+      "id": "p2-q21",
+      "media": [
+        {
+          "src": "assets/recovered/source-016-016-brain.jpg",
+          "alt": "Brain regions and functions, labels 21–23",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsprogress.com/whats-so-funny-reading-answers/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-16/",
+      "title": "Matching passage and missing task"
+    },
+    {
+      "url": "https://ieltsprogress.com/whats-so-funny-reading-answers/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

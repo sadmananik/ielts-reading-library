@@ -1,0 +1,98 @@
+{
+  "testId": "source-032",
+  "questions": [
+    {
+      "number": 20,
+      "unavailable": false,
+      "text": "Complete label or gap 20 in the recovered task above."
+    },
+    {
+      "number": 21,
+      "unavailable": false,
+      "text": "Complete label or gap 21 in the recovered task above."
+    },
+    {
+      "number": 22,
+      "unavailable": false,
+      "text": "Complete label or gap 22 in the recovered task above."
+    },
+    {
+      "number": 23,
+      "unavailable": false,
+      "text": "Complete label or gap 23 in the recovered task above."
+    },
+    {
+      "number": 38,
+      "options": [
+        "A local people and their environment",
+        "B the expectations of tourists",
+        "C the phenomena of holidaymaking",
+        "D the distinction we make between work and leisure",
+        "E the individual character of travel",
+        "F places seen in everyday life",
+        "G photographs which recapture our holidays",
+        "H sights designed specially for tourists"
+      ]
+    },
+    {
+      "number": 39,
+      "options": [
+        "A local people and their environment",
+        "B the expectations of tourists",
+        "C the phenomena of holidaymaking",
+        "D the distinction we make between work and leisure",
+        "E the individual character of travel",
+        "F places seen in everyday life",
+        "G photographs which recapture our holidays",
+        "H sights designed specially for tourists"
+      ]
+    },
+    {
+      "number": 40,
+      "options": [
+        "A local people and their environment",
+        "B the expectations of tourists",
+        "C the phenomena of holidaymaking",
+        "D the distinction we make between work and leisure",
+        "E the individual character of travel",
+        "F places seen in everyday life",
+        "G photographs which recapture our holidays",
+        "H sights designed specially for tourists"
+      ]
+    },
+    {
+      "number": 40,
+      "unavailable": false
+    }
+  ],
+  "groups": [
+    {
+      "id": "p2-q20",
+      "media": [
+        {
+          "src": "assets/recovered/source-032-032-c.png",
+          "alt": "Beehive diagram, labels 20–23",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsprogress.com/migratory-beekeeping-reading-answers/"
+        }
+      ],
+      "text": "Label the beehive diagram using NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": "p3-q38",
+      "text": "Chose one phrase (A-H) from the list of phrases to complete each key point below. Write the appropriate letters (A-H) in boxes 38-41 on your answer sheet.\n\nThe information in the completed sentences should be an accurate summary of points made by the writer.\nNB There are more phrases A-H than sentences so you will not use them all. You may use any phrase more than once.\n\n38. Our concept of tourism arises from……………..\n39. The media can be used to enhance…………….\n40. People view tourist landscapes in a different way from……………..\n\nList of Phrases\nA local people and their environment\nB the expectations of tourists\nC the phenomena of holidaymaking\nD the distinction we make between work and leisure\nE the individual character of travel\nF places seen in everyday life\nG photographs which recapture our holidays\nH sights designed specially for tourists",
+      "note": "The full A–H phrase list is restored from the matching Cambridge task."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ieltsprogress.com/migratory-beekeeping-reading-answers/",
+      "title": "Matching passage and missing task"
+    },
+    {
+      "url": "https://sektor-api.argos.uz/media/CAMBRIDGE_IELTS_1_4_practice_tests.pdf",
+      "title": "Matching Tourism task and complete phrase list"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,63 @@
+{
+  "testId": "source-078",
+  "questions": [
+    {
+      "number": 20,
+      "unavailable": false,
+      "text": "Complete label or gap 20 in the recovered task above."
+    },
+    {
+      "number": 21,
+      "unavailable": false,
+      "text": "Complete label or gap 21 in the recovered task above."
+    },
+    {
+      "number": 22,
+      "unavailable": false,
+      "text": "Complete label or gap 22 in the recovered task above."
+    },
+    {
+      "number": 23,
+      "unavailable": false,
+      "text": "Complete label or gap 23 in the recovered task above."
+    },
+    {
+      "number": 24,
+      "unavailable": false,
+      "text": "Complete label or gap 24 in the recovered task above."
+    },
+    {
+      "number": 25,
+      "unavailable": false,
+      "text": "Complete label or gap 25 in the recovered task above."
+    },
+    {
+      "number": 26,
+      "unavailable": false,
+      "text": "Complete label or gap 26 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p2-q20",
+      "media": [
+        {
+          "src": "assets/recovered/source-078-test-78-min-1.png",
+          "alt": "Falkirk Wheel boat lift, labels 20–26",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-78/"
+        }
+      ],
+      "text": "Label the diagram. Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-78/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": [
+    "User-supplied PDF reviewed. Its missing tasks were also absent or unloaded in print; working original image assets were recovered directly where available."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "testId": "source-064",
+  "questions": [
+    {
+      "number": 22,
+      "unavailable": false,
+      "text": "Complete label or gap 22 in the recovered task above.",
+      "type": "summary",
+      "options": [
+        "Resistance",
+        "Zygotes",
+        "Sporozoites",
+        "Gametocytes",
+        "Merozoites",
+        "Blood",
+        "Water",
+        "Saliva"
+      ]
+    },
+    {
+      "number": 23,
+      "unavailable": false,
+      "text": "Complete label or gap 23 in the recovered task above.",
+      "type": "summary",
+      "options": [
+        "Resistance",
+        "Zygotes",
+        "Sporozoites",
+        "Gametocytes",
+        "Merozoites",
+        "Blood",
+        "Water",
+        "Saliva"
+      ]
+    },
+    {
+      "number": 24,
+      "unavailable": false,
+      "text": "Complete label or gap 24 in the recovered task above.",
+      "type": "summary",
+      "options": [
+        "Resistance",
+        "Zygotes",
+        "Sporozoites",
+        "Gametocytes",
+        "Merozoites",
+        "Blood",
+        "Water",
+        "Saliva"
+      ]
+    },
+    {
+      "number": 25,
+      "unavailable": false,
+      "text": "Complete label or gap 25 in the recovered task above.",
+      "type": "summary",
+      "options": [
+        "Resistance",
+        "Zygotes",
+        "Sporozoites",
+        "Gametocytes",
+        "Merozoites",
+        "Blood",
+        "Water",
+        "Saliva"
+      ]
+    },
+    {
+      "number": 26,
+      "unavailable": false,
+      "text": "Complete label or gap 26 in the recovered task above.",
+      "type": "summary",
+      "options": [
+        "Resistance",
+        "Zygotes",
+        "Sporozoites",
+        "Gametocytes",
+        "Merozoites",
+        "Blood",
+        "Water",
+        "Saliva"
+      ]
+    },
+    {
+      "number": 27,
+      "unavailable": false,
+      "text": "Complete label or gap 27 in the recovered task above.",
+      "type": "summary",
+      "options": [
+        "Resistance",
+        "Zygotes",
+        "Sporozoites",
+        "Gametocytes",
+        "Merozoites",
+        "Blood",
+        "Water",
+        "Saliva"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "p2-q22",
+      "media": [
+        {
+          "src": "assets/recovered/source-064-064-diagram.png",
+          "alt": "Malaria parasite life cycle and word bank, gaps 22–27",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-64/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-64/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

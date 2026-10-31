@@ -1,0 +1,40 @@
+{
+  "testId": "source-021",
+  "questions": [
+    {
+      "number": 38,
+      "unavailable": false,
+      "text": "Complete label or gap 38 in the recovered task above."
+    },
+    {
+      "number": 39,
+      "unavailable": false,
+      "text": "Complete label or gap 39 in the recovered task above."
+    },
+    {
+      "number": 40,
+      "unavailable": false,
+      "text": "Complete label or gap 40 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p3-q38",
+      "media": [
+        {
+          "src": "assets/recovered/source-021-021.jpg",
+          "alt": "Caloric-restriction mimetic flowchart, gaps 38–40",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ielts.completesuccess.in/index.php/2022/11/26/cambridge-academic-books-6-test-3/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ielts.completesuccess.in/index.php/2022/11/26/cambridge-academic-books-6-test-3/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

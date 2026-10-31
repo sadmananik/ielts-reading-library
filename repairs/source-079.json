@@ -1,0 +1,59 @@
+{
+  "testId": "source-079",
+  "questions": [
+    {
+      "number": 9,
+      "unavailable": false,
+      "text": "Complete label or gap 9 in the recovered task above."
+    },
+    {
+      "number": 10,
+      "unavailable": false,
+      "text": "Complete label or gap 10 in the recovered task above."
+    },
+    {
+      "number": 11,
+      "unavailable": false,
+      "text": "Complete label or gap 11 in the recovered task above."
+    },
+    {
+      "number": 12,
+      "unavailable": false,
+      "text": "Complete label or gap 12 in the recovered task above."
+    },
+    {
+      "number": 13,
+      "unavailable": false,
+      "text": "Complete label or gap 13 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q9",
+      "media": [
+        {
+          "src": "assets/recovered/source-079-test-79-min.png",
+          "alt": "Mary Rose lifting diagram, labels 9–10",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-79/"
+        },
+        {
+          "src": "assets/recovered/source-079-test-79-1-min.png",
+          "alt": "Mary Rose lifting diagram, labels 11–13",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-79/"
+        }
+      ],
+      "text": "Label the diagram. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-79/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": [
+    "User-supplied PDF reviewed. Its missing tasks were also absent or unloaded in print; working original image assets were recovered directly where available."
+  ]
+}

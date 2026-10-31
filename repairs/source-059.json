@@ -1,0 +1,85 @@
+{
+  "testId": "source-059",
+  "questions": [
+    {
+      "number": 11,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "number": 12,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "number": 13,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "number": 14,
+      "unavailable": false,
+      "type": "choice",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q11",
+      "media": [
+        {
+          "src": "assets/recovered/source-059-059-diagram.png",
+          "alt": "Historic projectile drawings A–H",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-59/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-59/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

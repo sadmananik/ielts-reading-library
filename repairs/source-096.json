@@ -1,0 +1,56 @@
+{
+  "testId": "source-096",
+  "questions": [
+    {
+      "number": 39,
+      "unavailable": false,
+      "text": "Why do the animal studies fail to settle whether animals appreciate music?",
+      "type": "mcq",
+      "options": [
+        "A Animal hearing differs entirely from human hearing.",
+        "B The experiments have tested too narrow a kind of music.",
+        "C Animals cannot invent melodies.",
+        "D Animals cannot participate spontaneously in experiments."
+      ],
+      "answer": "B",
+      "acceptedAnswers": [
+        "B"
+      ],
+      "paragraph": "D"
+    },
+    {
+      "number": 40,
+      "unavailable": false,
+      "text": "Which topic best describes the passage as a whole?",
+      "type": "mcq",
+      "options": [
+        "A Connections between language and psychology",
+        "B How music takes shape",
+        "C The place of music in human life",
+        "D Experiments involving animal music"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "p3-q39",
+      "type": "mcq",
+      "text": "Choose the best answer, A, B, C or D, for each question.",
+      "note": "The PDF omits this task. Questions and options are paraphrased from a matching published task. Q39 is B; the supplied C is inconsistent with the task and paragraph D."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://engnovate.com/ielts-reading-answers/music-language-we-all-speak-2/",
+      "title": "Matching questions 39–40; restored with paraphrased wording"
+    },
+    {
+      "url": "https://ieltsquangtri.com/music-language-we-all-speak/",
+      "title": "Independent matching key: Q39 B and Q40 C"
+    }
+  ],
+  "notes": [
+    "Q39 corrected from supplied C to B, confirmed by paragraph D: tests used human music rather than sounds from the animals’ own environment. Q40 remains C.",
+    "User-supplied PDF reviewed. Its missing tasks were also absent or unloaded in print; working original image assets were recovered directly where available."
+  ]
+}

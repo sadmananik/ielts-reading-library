@@ -1,0 +1,50 @@
+{
+  "testId": "source-030",
+  "questions": [
+    {
+      "number": 7,
+      "unavailable": false,
+      "text": "Complete label or gap 7 in the recovered task above."
+    },
+    {
+      "number": 8,
+      "unavailable": false,
+      "text": "Complete label or gap 8 in the recovered task above."
+    },
+    {
+      "number": 9,
+      "unavailable": false,
+      "text": "Complete label or gap 9 in the recovered task above."
+    },
+    {
+      "number": 10,
+      "unavailable": false,
+      "text": "Complete label or gap 10 in the recovered task above."
+    },
+    {
+      "number": 11,
+      "unavailable": false,
+      "text": "Complete label or gap 11 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q7",
+      "media": [
+        {
+          "src": "assets/recovered/source-030-030-diagram.png",
+          "alt": "Spoken Corpus and Language Activator flowchart, gaps 7–11",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-30/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-30/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

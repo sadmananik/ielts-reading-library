@@ -1,0 +1,57 @@
+{
+  "testId": "source-007",
+  "questions": [
+    {
+      "number": 9,
+      "unavailable": false,
+      "text": "Complete label or gap 9 in the recovered task above.",
+      "acceptedAnswers": [
+        "ship's anchor",
+        "ship’s anchor",
+        "anchor",
+        "an anchor",
+        "the anchor"
+      ]
+    },
+    {
+      "number": 10,
+      "unavailable": false,
+      "text": "Complete label or gap 10 in the recovered task above."
+    },
+    {
+      "number": 11,
+      "unavailable": false,
+      "text": "Complete label or gap 11 in the recovered task above."
+    },
+    {
+      "number": 12,
+      "unavailable": false,
+      "text": "Complete label or gap 12 in the recovered task above."
+    },
+    {
+      "number": 13,
+      "unavailable": false,
+      "text": "Complete label or gap 13 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q9",
+      "media": [
+        {
+          "src": "assets/recovered/source-007-007.png",
+          "alt": "Anchor escapement, labels 9–13",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsprogress.com/chronicle-of-timekeeping-reading-answers-pdf/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ieltsprogress.com/chronicle-of-timekeeping-reading-answers-pdf/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

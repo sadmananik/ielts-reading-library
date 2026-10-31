@@ -1,0 +1,46 @@
+{
+  "testId": "source-058",
+  "questions": [
+    {
+      "number": 4,
+      "unavailable": false,
+      "text": "Complete label or gap 4 in the recovered task above."
+    },
+    {
+      "number": 5,
+      "unavailable": false,
+      "text": "Complete label or gap 5 in the recovered task above."
+    },
+    {
+      "number": 6,
+      "unavailable": false,
+      "text": "Complete label or gap 6 in the recovered task above."
+    },
+    {
+      "number": 7,
+      "unavailable": false,
+      "text": "Complete label or gap 7 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q4",
+      "media": [
+        {
+          "src": "assets/recovered/source-058-058.png",
+          "alt": "Great Pyramid diagram, labels 4–7",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsmaterial.com/ancient-egypt-reading-answers/"
+        }
+      ],
+      "text": "Complete the pyramid diagram. Choose NO MORE THAN THREE WORDS from the passage for each answer."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ieltsmaterial.com/ancient-egypt-reading-answers/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,71 @@
+{
+  "testId": "source-006",
+  "questions": [
+    {
+      "number": 1,
+      "unavailable": false,
+      "text": "First method of glass manufacture"
+    },
+    {
+      "number": 2,
+      "unavailable": false,
+      "text": "Advantage: glass remained _____"
+    },
+    {
+      "number": 3,
+      "unavailable": false,
+      "text": "Disadvantage of the first method: slow and _____"
+    },
+    {
+      "number": 4,
+      "unavailable": false,
+      "text": "Ribbon method: sheets of varying _____"
+    },
+    {
+      "number": 5,
+      "unavailable": false,
+      "text": "Ribbon method: glass was _____"
+    },
+    {
+      "number": 6,
+      "unavailable": false,
+      "text": "Complete label or gap 6 in the recovered task above."
+    },
+    {
+      "number": 7,
+      "unavailable": false,
+      "text": "Complete label or gap 7 in the recovered task above."
+    },
+    {
+      "number": 8,
+      "unavailable": false,
+      "text": "Complete label or gap 8 in the recovered task above.",
+      "answer": "rollers",
+      "acceptedAnswers": [
+        "rollers"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q1",
+      "media": [
+        {
+          "src": "assets/recovered/source-006-006-b.jpg",
+          "alt": "Pilkington float-process diagram, labels 6–8",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://ieltsmaterial.com/sheet-glass-manufacture-the-float-process-answers/"
+        }
+      ],
+      "text": "Complete the table and diagram. Use NO MORE THAN TWO WORDS from the passage.\n\nMethod | Advantages | Disadvantages\n(1) _____ | Glass remained (2) _____ | Slow; (3) _____\nRibbon | Glass sheets of varying (4) _____; non-stop process | Glass was (5) _____; 20% of glass rubbed away\n\nUse the diagram for Questions 6–8.",
+      "note": "The table and diagram have been restored. The supplied key “rolles” is corrected to “rollers”, matching the passage."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ieltsmaterial.com/sheet-glass-manufacture-the-float-process-answers/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": []
+}

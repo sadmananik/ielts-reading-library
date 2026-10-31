@@ -1,0 +1,86 @@
+{
+  "testId": "source-071",
+  "questions": [
+    {
+      "number": 7,
+      "unavailable": false,
+      "text": "Complete label or gap 7 in the recovered task above."
+    },
+    {
+      "number": 8,
+      "unavailable": false,
+      "text": "Complete label or gap 8 in the recovered task above."
+    },
+    {
+      "number": 9,
+      "unavailable": false,
+      "text": "Complete label or gap 9 in the recovered task above."
+    },
+    {
+      "number": 10,
+      "unavailable": false,
+      "text": "Complete label or gap 10 in the recovered task above."
+    },
+    {
+      "number": 14,
+      "unavailable": false,
+      "text": "Complete label or gap 14 in the recovered task above."
+    },
+    {
+      "number": 15,
+      "unavailable": false,
+      "text": "Complete label or gap 15 in the recovered task above."
+    },
+    {
+      "number": 16,
+      "unavailable": false,
+      "text": "Complete label or gap 16 in the recovered task above."
+    },
+    {
+      "number": 17,
+      "unavailable": false,
+      "text": "Complete label or gap 17 in the recovered task above."
+    }
+  ],
+  "groups": [
+    {
+      "id": "p1-q7",
+      "media": [
+        {
+          "src": "assets/recovered/source-071-test-71-min.png",
+          "alt": "Seaweed products flowchart, labels 7–10",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-71/"
+        }
+      ],
+      "text": "Complete the recovered task. Use NO MORE THAN THREE WORDS for Questions 7–10 and NO MORE THAN TWO WORDS for Questions 14–17."
+    },
+    {
+      "id": "p2-q14",
+      "media": [
+        {
+          "src": "assets/recovered/source-071-test-71-1-min.png",
+          "alt": "Crow tool diagrams, labels 14–16",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-71/"
+        },
+        {
+          "src": "assets/recovered/source-071-test-71-2-min.png",
+          "alt": "Padanus probe detail, label 17",
+          "caption": "Recovered original task. Open the image for a full-size view.",
+          "sourceUrl": "https://practicepteonline.com/ielts-reading-test-71/"
+        }
+      ],
+      "text": "Complete the recovered task. Use NO MORE THAN THREE WORDS for Questions 7–10 and NO MORE THAN TWO WORDS for Questions 14–17."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://practicepteonline.com/ielts-reading-test-71/",
+      "title": "Matching passage and missing task"
+    }
+  ],
+  "notes": [
+    "User-supplied PDF reviewed. Its missing tasks were also absent or unloaded in print; working original image assets were recovered directly where available."
+  ]
+}
