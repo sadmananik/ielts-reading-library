@@ -67,6 +67,18 @@ function startExam(){
  mode.textContent='Answers are saved as one recovery draft. Reload to resume, or choose Fresh start for a blank test.';
  const available=t.questions.filter(q=>!q.unavailable);
  document.querySelector('#test-title').textContent=t.title;
+ const textSize=document.querySelector('#passage-text-size'),textSizeKey='reading-room-text-size-v1';
+ const validTextSizes=['16','18','21','24'];
+ function applyTextSize(value){
+  const size=validTextSizes.includes(value)?value:'18';
+  textSize.value=size;document.querySelector('#passage').style.fontSize=size+'px';
+ }
+ let preferredTextSize='18';try{preferredTextSize=localStorage.getItem(textSizeKey)||'18';}catch{}
+ applyTextSize(preferredTextSize);
+ textSize.addEventListener('change',()=>{
+  applyTextSize(textSize.value);
+  try{localStorage.setItem(textSizeKey,textSize.value);}catch{}
+ });
  const timer=document.querySelector('#exam-timer');
  let deadline=Date.now()+60*60*1000,timerHandle=null,lastSeconds=3600,warningUntil=0;
  function saveDraft(){
