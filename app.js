@@ -31,7 +31,7 @@ if(window.location?.search){
   try{localStorage.setItem(statsKey,JSON.stringify(all));}catch{}
  }
 }
-function startLink(id){const s=testStats(id);return id+'.html?fresh=1'+(s.attempts?'&amp;attempts='+s.attempts+'&amp;best='+s.bestScore+(savedTime(s)===null?'':'&amp;fastest='+s.fastestSeconds):'');}
+function startLink(id){const s=testStats(id);return 'tests/'+id+'.html?fresh=1'+(s.attempts?'&amp;attempts='+s.attempts+'&amp;best='+s.bestScore+(savedTime(s)===null?'':'&amp;fastest='+s.fastestSeconds):'');}
 function updateReturnLinks(){
  const s=testStats(active);
  for(const a of document.querySelectorAll?.('a[href]')||[]){

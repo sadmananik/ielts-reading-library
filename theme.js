@@ -24,8 +24,9 @@
   const anchor=event.target.closest('a[href]');
   if(!anchor||anchor.hasAttribute('download'))return;
   const href=anchor.getAttribute('href');
-  const url=new URL(href,window.location.href),current=new URL(window.location.href);
-  if(url.origin!==current.origin||url.pathname.slice(0,url.pathname.lastIndexOf('/'))!==current.pathname.slice(0,current.pathname.lastIndexOf('/'))||!/\/(?:index|source-\d{3})\.html$/.test(url.pathname))return;
+  const url=new URL(href,document.baseURI||window.location.href),current=new URL(window.location.href);
+  const base=current.pathname.replace(/(?:tests\/)?(?:index|source-\d{3})\.html$/,'');
+  if(url.origin!==current.origin||!(url.pathname===base+'index.html'||(url.pathname.startsWith(base+'tests/')&&/\/source-\d{3}\.html$/.test(url.pathname))))return;
   if(mode==='system')url.searchParams.delete('theme');
   else url.searchParams.set('theme',mode);
   anchor.href=url.href;
