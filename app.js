@@ -71,14 +71,16 @@ function startExam(){
  let deadline=Date.now()+60*60*1000,timerHandle=null,lastSeconds=3600,warningUntil=0;
  function saveDraft(){
   if(review)return;
-  try{localStorage.setItem(draftKey,JSON.stringify({version:1,testId:t.id,answers,page,currentQuestion,deadline,attempt}));}
+  try{localStorage.setItem(draftKey,JSON.stringify({version:1,testId:t.id,answers,page,currentQuestion,deadline,attempt,highlights:window.readingHighlighter?.serialize()||[]}));}
   catch{mode.textContent='Automatic recovery is unavailable: browser storage is blocked or full. Keep this page open to retain your answers.';}
  }
+ if(window.readingHighlighter)window.readingHighlighter.onChange=saveDraft;
  function clearDraft(){try{const d=JSON.parse(localStorage.getItem(draftKey)||'null');if(d?.testId===t.id)localStorage.removeItem(draftKey);}catch{}}
  function restoreDraft(){
   try{
    const d=JSON.parse(localStorage.getItem(draftKey)||'null');
    if(!d||d.version!==1||d.testId!==t.id||!Number.isFinite(d.deadline)||d.deadline>Date.now()+3600000||!d.answers||typeof d.answers!=='object'||Array.isArray(d.answers))return false;
+   window.readingHighlighter?.load(d.highlights);
    answers={};for(const q of t.questions)if(typeof d.answers[q.number]==='string'&&d.answers[q.number].length<=500)answers[q.number]=d.answers[q.number];
    page=[1,2,3].includes(d.page)?d.page:1;
    currentQuestion=t.questions.some(q=>q.number===d.currentQuestion&&q.passage===page)?d.currentQuestion:t.questions.find(q=>q.passage===page).number;

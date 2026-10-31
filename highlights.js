@@ -1,5 +1,5 @@
 'use strict';
-// Text offsets, scoped to stable text blocks, survive re-rendering without storage.
+// Text offsets scoped to stable blocks are serialised into the unfinished-test draft.
 (()=>{
  const blocksSelector='#passage .reading-text, #questions legend, #questions .heading-list li, #questions .instruction, #questions .task-text';
  const add=document.getElementById('highlight-add'),remove=document.getElementById('highlight-remove');
@@ -48,7 +48,7 @@
    else existing=existing.flatMap(r=>r.end<=range.start||r.start>=range.end?[r]:[{start:r.start,end:Math.min(r.end,range.start)},{start:Math.max(r.start,range.end),end:r.end}].filter(x=>x.start<x.end));
    if(existing.length)marks.set(range.id,existing);else marks.delete(range.id);
   }
-  resetSelection();paint();status.textContent=action==='add'?'Text highlighted.':'Highlight removed.';
+  resetSelection();paint();status.textContent=action==='add'?'Text highlighted.':'Highlight removed.';window.readingHighlighter?.onChange?.();
  }
  function capture(){pending=rangesForSelection();add.disabled=remove.disabled=!pending.length;if(!pending.length)menu.hidden=true;}
  document.addEventListener('selectionchange',capture);
@@ -63,7 +63,21 @@
  document.addEventListener('pointerdown',event=>{if(!menu.contains(event.target))menu.hidden=true;});
  document.addEventListener('keydown',event=>{if(event.key==='Escape')menu.hidden=true;});
  document.addEventListener('scroll',()=>{menu.hidden=true;},true);
- function clear(){marks.clear();resetSelection();paint();status.textContent='Your highlights cleared.';}
+ function clear(){marks.clear();resetSelection();paint();status.textContent='Your highlights cleared.';window.readingHighlighter?.onChange?.();}
  document.getElementById('highlight-clear').onclick=clear;
- window.readingHighlighter={restore(nextPage){page=nextPage;resetSelection();paint();},clear};
+ window.readingHighlighter={
+  restore(nextPage){page=nextPage;resetSelection();paint();},clear,
+  serialize(){return Array.from(marks,([id,ranges])=>[id,ranges.map(r=>({start:r.start,end:r.end}))]);},
+  load(saved){
+   marks.clear();
+   if(!Array.isArray(saved))return;
+   for(const entry of saved.slice(0,1000)){
+    if(!Array.isArray(entry)||entry.length!==2)continue;
+    const [id,ranges]=entry;
+    if(typeof id!=='string'||!/^([123]):\d{1,4}$/.test(id)||!Array.isArray(ranges))continue;
+    const valid=ranges.slice(0,200).filter(r=>r&&Number.isInteger(r.start)&&Number.isInteger(r.end)&&r.start>=0&&r.end>r.start&&r.end<=100000).map(r=>({start:r.start,end:r.end}));
+    if(valid.length)marks.set(id,merge(valid));
+   }
+  }
+ };
 })();
