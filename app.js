@@ -5,10 +5,10 @@ const norm=s=>String(s??'').normalize('NFKC').trim().toLowerCase().replace(/\s+/
 const statsKey='reading-room-attempts-v1';
 const draftKey='reading-room-draft-v1';
 function readStats(){try{const value=JSON.parse(localStorage.getItem(statsKey)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{};}catch{return {};}}
-function testStats(id){const s=readStats()[id];return s&&Number.isInteger(s.attempts)&&s.attempts>=0&&Number.isFinite(s.bestScore)&&s.bestScore>=0&&s.bestScore<=40?s:{attempts:0,bestScore:0};}
+function testStats(id){const s=readStats()[id];return s&&Number.isInteger(s.attempts)&&s.attempts>=0&&Number.isFinite(s.bestScore)&&s.bestScore>=0&&s.bestScore<=(tests.find(t=>t.id===id)?.questions.length||40)?s:{attempts:0,bestScore:0};}
 function formatTime(seconds){return `${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`;}
 function savedTime(s){return Number.isInteger(s.fastestSeconds)&&s.fastestSeconds>=0&&s.fastestSeconds<=3600?s.fastestSeconds:null;}
-function statsLabel(id){const s=testStats(id),time=savedTime(s);return `Attempts: ${s.attempts} · Best score: ${s.attempts?s.bestScore+' / 40':'—'} · Fastest: ${time===null?'—':formatTime(time)}`;}
+function statsLabel(id){const s=testStats(id),time=savedTime(s);return `Attempts: ${s.attempts} · Best score: ${s.attempts?s.bestScore+' / '+(tests.find(t=>t.id===id)?.questions.length||40):'—'} · Fastest: ${time===null?'—':formatTime(time)}`;}
 function questionTypes(t){
  const names={heading:'Matching headings',paragraph:'Matching information',summary:'Summary completion',choice:'Matching',mcq:'Multiple choice (MCQ)',tfng:'True/False/Not Given',multi:'Multiple answers',multiSingle:'Multiple answers'};
  return [...new Set(t.questions.map(q=>{
@@ -24,7 +24,7 @@ const active=document.body.dataset.test;
 if(window.location?.search){
  const params=new URLSearchParams(window.location.search),id=active||params.get('resultTest');
  const count=Number(params.get('attempts')),best=Number(params.get('best'));
- if(tests.some(t=>t.id===id)&&Number.isInteger(count)&&count>0&&Number.isInteger(best)&&best>=0&&best<=40){
+ if(tests.some(t=>t.id===id)&&Number.isInteger(count)&&count>0&&Number.isInteger(best)&&best>=0&&best<=(tests.find(t=>t.id===id)?.questions.length||40)){
   const all=readStats(),old=testStats(id);all[id]={attempts:Math.max(old.attempts,count),bestScore:Math.max(old.bestScore,best)};
   const time=Number(params.get('fastest'));const previous=savedTime(old);
   if(params.has('fastest')&&Number.isInteger(time)&&time>=0&&time<=3600)all[id].fastestSeconds=previous===null?time:Math.min(previous,time);else if(previous!==null)all[id].fastestSeconds=previous;
@@ -56,7 +56,7 @@ if(!active){
    return tie;
   });
   document.querySelector('#test-count').textContent=`${filtered.length} of ${tests.length} tests`;
-  document.querySelector('#tests').innerHTML=filtered.length?filtered.map(t=>`<section class="testcard${t.questions.some(q=>q.unavailable)?' testcard-missing':''}"><small>SOURCE TEST ${t.sourceNumber} · 40 QUESTIONS · 3 PASSAGES</small><h2>${esc(t.title)}</h2>${t.questions.some(q=>q.unavailable)?'<span class="missing-badge">Missing content</span>':''}<p class="test-stats">${statsLabel(t.id)}</p><ol>${t.passages.map(p=>`<li>${esc(p.title)}</li>`).join('')}</ol><ul class="question-type-list" aria-label="Question types">${types.get(t.id).map(name=>`<li>${esc(name)}</li>`).join('')}</ul><p class="muted">${t.questions.some(q=>q.unavailable)?`${t.questions.filter(q=>q.unavailable).length} questions have missing content and are excluded from scoring.`:'Ready when you are.'}</p><a class="button primary" href="${startLink(t.id)}">Start fresh →</a></section>`).join(''):'<p class="empty-tests">No tests match your search. Try a passage title, test number or a different question type.</p>';
+  document.querySelector('#tests').innerHTML=filtered.length?filtered.map(t=>`<section class="testcard${t.questions.some(q=>q.unavailable)?' testcard-missing':''}"><small>SOURCE TEST ${t.sourceNumber} · ${t.questions.length} QUESTIONS · 3 PASSAGES</small><h2>${esc(t.title)}</h2>${t.questions.some(q=>q.unavailable)?'<span class="missing-badge">Missing content</span>':''}<p class="test-stats">${statsLabel(t.id)}</p><ol>${t.passages.map(p=>`<li>${esc(p.title)}</li>`).join('')}</ol><ul class="question-type-list" aria-label="Question types">${types.get(t.id).map(name=>`<li>${esc(name)}</li>`).join('')}</ul><p class="muted">${t.questions.some(q=>q.unavailable)?`${t.questions.filter(q=>q.unavailable).length} questions have missing content and are excluded from scoring.`:'Ready when you are.'}</p><a class="button primary" href="${startLink(t.id)}">Start fresh →</a></section>`).join(''):'<p class="empty-tests">No tests match your search. Try a passage title, test number or a different question type.</p>';
  }
  search.addEventListener('input',drawLibrary);type.addEventListener('change',drawLibrary);sort.addEventListener('change',drawLibrary);
  drawLibrary();window.addEventListener?.('pageshow',drawLibrary);

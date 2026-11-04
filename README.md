@@ -1,6 +1,6 @@
 # IELTS Reading Library
 
-A personal IELTS Academic Reading practice website with **100 tests**, each containing three passages and 40 questions. Built with HTML, CSS and vanilla JavaScript; no server or installation is required.
+A personal IELTS Academic Reading practice website with **150 tests**, each containing three reading passages. Most have 40 questions; a few supplied exports have different counts, which are preserved rather than padded or truncated. Built with HTML, CSS and vanilla JavaScript; no server or installation is required.
 
 **[Open the live library](https://sadmananik.github.io/ielts-reading-library/)**
 
@@ -34,7 +34,7 @@ data.js          All passages, questions, options, keys and source provenance
 highlights.js    Text selection, highlight rendering and draft serialisation
 theme.js         Light, dark and system appearance
 style.css        Shared styling and responsive layouts
-tests/           The 100 test HTML entry pages
+tests/           The 150 test HTML entry pages
 assets/          Local diagrams and other required images
 .nojekyll        Serve the repository as a plain GitHub Pages site
 ```
@@ -45,8 +45,28 @@ The test pages use `<base href="../">` so shared scripts, images and the library
 
 GitHub Pages serves this repository from **main → /(root)**. Push changes to `main` to deploy an update. Allow the Pages deployment to finish, then refresh the website.
 
-To add a test, update `data.js` with its complete passages, 40 questions, options and answer mapping; add its entry page in `tests/` using an existing page and a unique `data-test` ID. Store required diagrams in `assets/`. Missing content must remain flagged and excluded from scoring until verified. Keep existing tests intact.
+To add a test, update `data.js` with its complete passages, numbered questions, options and answer mapping; add its entry page in `tests/` using an existing page and a unique `data-test` ID. Store required diagrams in `assets/`. Missing content must remain flagged and excluded from scoring until verified. Keep existing tests intact.
 
 ## Content and marking
 
 This is an independent personal practice tool, not an official IELTS product. Test material remains the property of its respective rights holders. Source links are retained with recovered diagrams and in embedded provenance records. Scores use the included answer keys and documented corrections. Paragraph evidence links are review aids, not official explanations; a complete independent audit of every supplied answer has not been performed.
+
+## Tests 101–150
+
+Added from the supplied text exports. Missing diagrams and task images in Tests 104, 112, 118, 123, 132, 133, 146 and 147 were recovered and saved locally in `assets/recovered/`; their source links are shown beside the diagrams. Existing Tests 1–100 are preserved.
+
+Test 127 is marked red: its supplied key conflicts with the options for Q5–14. These ten questions are excluded from scoring until a corrected key is supplied. Their original key entries are retained for review.
+
+Nonstandard question counts in the exports are shown accurately throughout the library and marking:
+
+| Test | Supplied questions |
+| --- | --- |
+| 110 | 39 |
+| 112 | 39 |
+| 121 | 37 |
+| 122 | 42 |
+| 123 | 41 |
+| 124 | 38 |
+| 134 | 39 |
+
+Abbreviated keys such as NG are interpreted as NOT GIVEN. Where YES/NO instructions have TRUE/FALSE keys, equivalent YES/NO values are used in the controls, with the original key retained as `sourceAnswer`. Multi-answer groups accept the correct selections in any order.
