@@ -6,6 +6,7 @@ A personal IELTS Academic Reading practice website with **200 tests**, each cont
 
 ## What you can do
 
+- Browse 10 tests per page using numbered pages and Previous/Next controls above or below the list. Search and filtering apply to the whole library, and changes reset the list to page 1.
 - Find tests by passage title, test number or question type. Filter by type and sort by best score or fastest completion.
 - Practise multiple choice, matching headings and information, True/False/Not Given, Yes/No/Not Given, and completion questions with local diagrams where needed.
 - Navigate all 40 question numbers; answered questions are underlined.

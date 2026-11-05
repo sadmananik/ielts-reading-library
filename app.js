@@ -40,6 +40,7 @@ function updateReturnLinks(){
 }
 if(!active){
  const search=document.querySelector('#test-search'),type=document.querySelector('#type-filter'),sort=document.querySelector('#test-sort');
+ const pageSize=10;let libraryPage=1;
  const types=new Map(tests.map(t=>[t.id,questionTypes(t)]));
  type.innerHTML='<option value="">All question types</option>'+[...new Set([...types.values()].flat())].sort().map(name=>`<option value="${esc(name)}">${esc(name)}</option>`).join('');
  function drawLibrary(){
@@ -55,10 +56,23 @@ if(!active){
    if(order==='time')return (savedTime(sa)??Infinity)-(savedTime(sb)??Infinity)||tie;
    return tie;
   });
-  document.querySelector('#test-count').textContent=`${filtered.length} of ${tests.length} tests`;
-  document.querySelector('#tests').innerHTML=filtered.length?filtered.map(t=>`<section class="testcard${t.questions.some(q=>q.unavailable)?' testcard-missing':''}"><small>SOURCE TEST ${t.sourceNumber} · ${t.questions.length} QUESTIONS · 3 PASSAGES</small><h2>${esc(t.title)}</h2>${t.questions.some(q=>q.unavailable)?'<span class="missing-badge">Missing content</span>':''}<p class="test-stats">${statsLabel(t.id)}</p><ol>${t.passages.map(p=>`<li>${esc(p.title)}</li>`).join('')}</ol><ul class="question-type-list" aria-label="Question types">${types.get(t.id).map(name=>`<li>${esc(name)}</li>`).join('')}</ul><p class="muted">${t.questions.some(q=>q.unavailable)?`${t.questions.filter(q=>q.unavailable).length} questions have missing content and are excluded from scoring.`:'Ready when you are.'}</p><a class="button primary" href="${startLink(t.id)}">Start fresh →</a></section>`).join(''):'<p class="empty-tests">No tests match your search. Try a passage title, test number or a different question type.</p>';
+  const pageCount=Math.max(1,Math.ceil(filtered.length/pageSize));
+  libraryPage=Math.min(libraryPage,pageCount);
+  const offset=(libraryPage-1)*pageSize,visible=filtered.slice(offset,offset+pageSize);
+  document.querySelector('#test-count').textContent=`${filtered.length} of ${tests.length} tests`+(filtered.length?` · Showing ${offset+1}–${offset+visible.length}`:'');
+  const pageNumbers=[...new Set([1,pageCount,...Array.from({length:5},(_,i)=>libraryPage+i-2).filter(n=>n>=1&&n<=pageCount)])].sort((a,b)=>a-b);
+  const controls=`<button type="button" data-library-page="${libraryPage-1}" ${libraryPage===1?'disabled':''}>← Previous</button>`+pageNumbers.map((n,i)=>`${i&&n>pageNumbers[i-1]+1?'<span class="page-ellipsis" aria-hidden="true">…</span>':''}<button type="button" data-library-page="${n}" aria-label="Page ${n}" ${n===libraryPage?'aria-current="page"':''}>${n}</button>`).join('')+`<button type="button" data-library-page="${libraryPage+1}" ${libraryPage===pageCount?'disabled':''}>Next →</button><span class="page-summary">Page ${libraryPage} of ${pageCount}</span>`;
+  for(const selector of ['#pagination-top','#pagination-bottom']){const nav=document.querySelector(selector);nav.hidden=pageCount<=1;nav.innerHTML=pageCount>1?controls:'';}
+
+  document.querySelector('#tests').innerHTML=filtered.length?visible.map(t=>`<section class="testcard${t.questions.some(q=>q.unavailable)?' testcard-missing':''}"><small>SOURCE TEST ${t.sourceNumber} · ${t.questions.length} QUESTIONS · 3 PASSAGES</small><h2>${esc(t.title)}</h2>${t.questions.some(q=>q.unavailable)?'<span class="missing-badge">Missing content</span>':''}<p class="test-stats">${statsLabel(t.id)}</p><ol>${t.passages.map(p=>`<li>${esc(p.title)}</li>`).join('')}</ol><ul class="question-type-list" aria-label="Question types">${types.get(t.id).map(name=>`<li>${esc(name)}</li>`).join('')}</ul><p class="muted">${t.questions.some(q=>q.unavailable)?`${t.questions.filter(q=>q.unavailable).length} questions have missing content and are excluded from scoring.`:'Ready when you are.'}</p><a class="button primary" href="${startLink(t.id)}">Start fresh →</a></section>`).join(''):'<p class="empty-tests">No tests match your search. Try a passage title, test number or a different question type.</p>';
  }
- search.addEventListener('input',drawLibrary);type.addEventListener('change',drawLibrary);sort.addEventListener('change',drawLibrary);
+ function resetLibraryPage(){libraryPage=1;drawLibrary();}
+ search.addEventListener('input',resetLibraryPage);type.addEventListener('change',resetLibraryPage);sort.addEventListener('change',resetLibraryPage);
+ for(const selector of ['#pagination-top','#pagination-bottom'])document.querySelector(selector).addEventListener('click',event=>{
+  const button=event.target.closest('[data-library-page]');if(!button||button.disabled)return;
+  const next=Number(button.dataset.libraryPage);if(!Number.isInteger(next)||next<1)return;
+  libraryPage=next;drawLibrary();const count=document.querySelector('#test-count');count.scrollIntoView?.({block:'start',behavior:'smooth'});count.focus({preventScroll:true});
+ });
  drawLibrary();window.addEventListener?.('pageshow',drawLibrary);
 }else{startExam();}
 function startExam(){
