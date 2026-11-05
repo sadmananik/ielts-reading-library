@@ -55,7 +55,7 @@ This is an independent personal practice tool, not an official IELTS product. Te
 
 Added from the supplied text exports. Missing diagrams and task images in Tests 104, 112, 118, 123, 132, 133, 146 and 147 were recovered and saved locally in `assets/recovered/`; their source links are shown beside the diagrams. Existing Tests 1–100 are preserved.
 
-Test 127 is marked red: its supplied key conflicts with the options for Q5–14. These ten questions are excluded from scoring until a corrected key is supplied. Their original key entries are retained for review.
+Test 127’s shifted key has been repaired against the matching task and answer key in [IELTS Reading Academic Exam Practice](https://aspiresquare.com/wp-content/uploads/2022/01/IELTS-Reading-Academic-Exam-Practice.pdf). Q1–14 are verified, including corrections to Q2–4; Q8 accepts A or B. All 40 questions are available, and original key values are preserved as `sourceAnswer`.
 
 Nonstandard question counts in the exports are shown accurately throughout the library and marking:
 
@@ -83,4 +83,4 @@ Verified repairs and source-format handling:
 - Test 184 Q36: enter the temperature decrease and distance together, separated by “per”; both parts are required.
 - Repeated full answer sets are displayed as multi-answer checkbox groups. Spelling error Ture is normalised to TRUE while retaining the supplied value.
 
-The earlier Test 127 Q5–14 answer-key conflict is still flagged and excluded from scoring.
+Test 127 has also been repaired. All 200 tests now have their included questions available for scoring.
