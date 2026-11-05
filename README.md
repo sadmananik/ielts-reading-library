@@ -1,6 +1,6 @@
 # IELTS Reading Library
 
-A personal IELTS Academic Reading practice website with **150 tests**, each containing three reading passages. Most have 40 questions; a few supplied exports have different counts, which are preserved rather than padded or truncated. Built with HTML, CSS and vanilla JavaScript; no server or installation is required.
+A personal IELTS Academic Reading practice website with **200 tests**, each containing three reading passages. Most have 40 questions; a few supplied exports have different counts, which are preserved rather than padded or truncated. Built with HTML, CSS and vanilla JavaScript; no server or installation is required.
 
 **[Open the live library](https://sadmananik.github.io/ielts-reading-library/)**
 
@@ -34,7 +34,7 @@ data.js          All passages, questions, options, keys and source provenance
 highlights.js    Text selection, highlight rendering and draft serialisation
 theme.js         Light, dark and system appearance
 style.css        Shared styling and responsive layouts
-tests/           The 150 test HTML entry pages
+tests/           The 200 test HTML entry pages
 assets/          Local diagrams and other required images
 .nojekyll        Serve the repository as a plain GitHub Pages site
 ```
@@ -70,3 +70,17 @@ Nonstandard question counts in the exports are shown accurately throughout the l
 | 134 | 39 |
 
 Abbreviated keys such as NG are interpreted as NOT GIVEN. Where YES/NO instructions have TRUE/FALSE keys, equivalent YES/NO values are used in the controls, with the original key retained as `sourceAnswer`. Multi-answer groups accept the correct selections in any order.
+
+## Tests 151–200
+
+All 50 tests from this batch have 40 available questions. Twenty-six original task images were recovered and stored locally, including missing diagrams, flowcharts and Test 169’s omitted table. Earlier tests are preserved.
+
+Verified repairs and source-format handling:
+
+- Test 160 Q27–34: restored the omitted paragraph-matching task using paraphrased descriptions from a [matching published task](https://engnovate.com/ielts-reading-answers/source-of-knowledge/).
+- Test 170 Q28: changed the invalid key S to A, confirmed by the passage and the [matching answer key](https://www.ieltsvisa.com/academic-reading-passages/organisational-conflict-and-change-reading-answers/).
+- Test 180 Q25–26: replaced unrelated options with paraphrased choices from a [matching task](https://www.ieltsvisa.com/academic-reading-passages/clicks-bricks-and-bargains-reading-answers/). Q26 accepts A and C in the restored option order, supported by paragraph F. Original options and key are retained as `sourceOptions` and `sourceAnswer`.
+- Test 184 Q36: enter the temperature decrease and distance together, separated by “per”; both parts are required.
+- Repeated full answer sets are displayed as multi-answer checkbox groups. Spelling error Ture is normalised to TRUE while retaining the supplied value.
+
+The earlier Test 127 Q5–14 answer-key conflict is still flagged and excluded from scoring.
